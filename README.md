@@ -16,12 +16,12 @@ This makes work faster and helps everyone work together better.
 
 ## Structure of the repository
 
-Our repository consists of a 'doc' directory tat contains the project's 
-documentation. Inside it, there are ** two additional directories** :
+Our repository consists of a `doc` directory that contains the project's 
+documentation. Inside it, there are **two additional directories** :
 
-- 'images' : Contains all images related to our software
-- 'models' : Contains the models of our software
+- `image` : Contains all images related to our software
+- `models` : Contains the models of our software
 
-We also have a 'src' directory which will contain all the files related to 
+We also have a `src` directory which will contain all the files related to 
 the software's implementation.
 
