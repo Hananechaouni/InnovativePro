@@ -3,7 +3,8 @@
 ## Description
 
 The InnovativePro AI Assistant is a tool that helps employees do their daily
-tasks easier. It uses AI to let users chat with it to :
+tasks easier. Each user will interact with the Assistant through a Chat which
+offers the following features :
 
 - **Retrieve specific document**
 - **Summarize specific document**  
@@ -16,12 +17,14 @@ This makes work faster and helps everyone work together better.
 
 ## Structure of the repository
 
-Our repository consists of a `doc` directory that contains the project's 
-documentation. Inside it, there are **two additional directories** :
+Our repository includes  a `doc` directory at the root that contains the
+project's documentation. Inside it, there are **two additional directories** :
 
-- `image` : Contains all images related to our software
-- `models` : Contains the models of our software
+- `images` : Contains all images related to our software
+- `models` : Contains all  models related to our software
 
-We also have a `src` directory which will contain all the files related to 
-the software's implementation.
 
+A `src` directory has also been added to the root of the repository, which will
+contain all the files related to the software's implementation, and a 
+`.gitignore` file is created at the root to ensure `.tmp` files are ignored,
+keeping the repository clean and streamlined.
