@@ -1,30 +1,46 @@
-# InnovativePro
+# InnovativePro AI Assistant
 
-## Description
+## Description:
+The InnovativePro AI Assistant is an intelligent tool designed to streamline daily tasks for employees, fostering efficiency and collaboration within the workplace. This user-friendly assistant facilitates seamless interactions through a chat interface, offering a range of features tailored to enhance productivity.
 
-The InnovativePro AI Assistant is a tool that helps employees do their daily
-tasks easier. Each user will interact with the Assistant through a Chat which
-offers the following features :
+## Key Features:
 
-- **Retrieve specific document**
-- **Summarize specific document**  
-- **Schedule meetings**
-- **Send Notifications**
+### Document Retrieval:
+- Quickly locate and retrieve specific documents with a natural language interface.
+- Supports various file formats, ensuring accessibility to a wide range of documents.
 
-This makes work faster and helps everyone work together better.
+### Document Summarization:
+- Obtain concise summaries of lengthy documents, enabling users to grasp key information efficiently.
+- Enhances comprehension and accelerates decision-making processes.
 
+### Meeting Scheduling:
+- Effortlessly schedule meetings by interacting with the assistant.
+- Integrates with calendar systems to check availability and propose suitable time slots.
 
+### Notification System:
+- Receive timely notifications for upcoming meetings, deadlines, or any personalized alerts.
+- Customizable notification preferences to cater to individual needs.
 
-## Structure of the repository
+### Task Automation:
+- Automate repetitive tasks, reducing manual effort and freeing up time for more strategic activities.
+- Create custom workflows tailored to specific organizational needs.
 
-Our repository includes  a `doc` directory at the root that contains the
-project's documentation. Inside it, there are **two additional directories** :
+### Authentication and Access Control:
+- Facilitates secure document editing and sharing among team members.
 
-- `images` : Contains all images related to our software
-- `models` : Contains all  models related to our software
+## Repository Architecture:
+The project's repository is thoughtfully organized for clarity and ease of maintenance:
 
+- **doc Directory:**
+  - **documentation:** Comprehensive documentation outlining the assistant's functionalities and usage.
+  - **images:** Visual assets related to the software for use in documentation and presentations.
+  - **models:** Storage for machine learning models utilized by the AI Assistant.
 
-A `src` directory has also been added to the root of the repository, which will
-contain all the files related to the software's implementation, and a 
-`.gitignore` file is created at the root to ensure `.tmp` files are ignored,
-keeping the repository clean and streamlined.
+- **src Directory:**
+  - **modules:** Modular components for extensibility and maintainability.
+
+- **Root Directory:**
+  - **.gitignore:** Configured to exclude temporary files (`*.tmp`) and log files (`*.log`) to maintain a clean repository and prevent unnecessary clutter.
+
+## License:
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
