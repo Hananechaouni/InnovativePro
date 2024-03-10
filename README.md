@@ -32,15 +32,15 @@ The InnovativePro AI Assistant is an intelligent tool designed to streamline dai
 The project's repository is thoughtfully organized for clarity and ease of maintenance:
 
 - **doc Directory:**
-  - **documentation:** Comprehensive documentation outlining the assistant's functionalities and usage.
-  - **images:** Visual assets related to the software for use in documentation and presentations.
-  - **models:** Storage for machine learning models utilized by the AI Assistant.
+  - **documentation:** Details on how the assistant works and how to use it.
+  - **images:** Visuals like diagrams, charts, and pictures of the prototype.
+  - **models:** Stores machine learning models used by the AI Assistant.
 
 - **src Directory:**
-  - **modules:** Modular components for extensibility and maintainability.
+  - **modules:** Different parts of the AI Assistant's code, each in its own module.
 
 - **Root Directory:**
-  - **.gitignore:** Configured to exclude temporary files (`*.tmp`) and log files (`*.log`) to maintain a clean repository and prevent unnecessary clutter.
+  - **.gitignore:** Keeps the repository clean by ignoring temporary files (`*.tmp`) and log files (`*.log`).
 
 ## License:
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
