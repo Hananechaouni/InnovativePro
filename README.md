@@ -21,7 +21,7 @@ The InnovativePro AI Assistant is an intelligent tool designed to streamline dai
 - Integrates with calendar systems to check availability and propose suitable time slots.
 
 ### Sending Notification :
-- Receive notifications for upcoming meetings, deadlines, or any personalized alerts.
+- Send/receive  notifications for upcoming meetings, deadlines, etc...
 
 
 ## Repository Architecture:
