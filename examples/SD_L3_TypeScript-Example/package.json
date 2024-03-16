@@ -1,0 +1,21 @@
+{
+  "name": "expense-tracker",
+  "version": "0.0.1",
+  "description": "Demo app for tracking monetary expenses",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "author": "Felix Härer",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "express-session": "^1.17.2",
+    "hbs": "^4.2.0",
+    "pg": "^8.7.1"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.13"
+  }
+}

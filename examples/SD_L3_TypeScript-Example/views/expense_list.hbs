@@ -1,0 +1,36 @@
+<div class="container">
+
+  <h3 style="margin-bottom: 15px;">{{headline}}</h3>
+
+    <div class="row rowHead">
+        <div class="col-sm-4">
+        Name
+        </div>
+        <div class="col-sm-4">
+        Amount
+        </div>
+        <div class="col-sm-4">
+        Category
+        </div>
+    </div>
+
+    {{#each expenses}}
+    <div class="row">
+        <div class="col-sm-4">
+        {{name}}
+        </div>
+        <div class="col-sm-4">
+        {{amount}}
+        </div>
+        <div class="col-sm-4">
+        {{category}}
+        </div>
+    </div>
+    {{/each}}
+
+    <p style="margin-top: 40px;">
+        <form method="post">
+            <button type="submit" class="btn btn-primary">Add Expense</button>
+        </form>
+    </p>
+</div>
