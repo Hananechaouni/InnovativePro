@@ -23,6 +23,19 @@ The InnovativePro AI Assistant is an intelligent tool designed to streamline dai
 ### Sending Notification :
 - Send/receive  notifications for upcoming meetings, deadlines, etc...
 
+## How to use it ?
+
+To show the interface of the application : 
+
+* Go to the **InnovativePro-app doc**
+* Type `ng serve`
+* Navigate to [http://localhost:4200/](http://localhost:4200/)
+
+To use the Proxy :
+
+* Go to the ** my-replicate-app doc**
+* Type `npm start`
+ 
 
 ## Repository Architecture:
 The project's repository is organized for clarity and ease of maintenance.
