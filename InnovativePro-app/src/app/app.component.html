@@ -2,4 +2,12 @@
   <img src="assets/logo.png" alt="InnovativePro Logo" style="max-width: 150px;">
   <h1>Welcome to the InnovativePro</h1>
   <p>Our app is designed to streamline your workday. It simplifies your tasks, enhances productivity, and saves valuable time.</p>
-<div>
+  <div>
+    <input type="text" [(ngModel)]="prompt" placeholder="Enter your prompt here" style="margin-right: 10px;">
+    <button (click)="sendPrompt()">Send</button>
+  </div>
+  <div *ngIf="response" style="margin-top: 20px;">
+    <p>Output:</p>
+    <p>{{ response }}</p>
+  </div>
+</div>
