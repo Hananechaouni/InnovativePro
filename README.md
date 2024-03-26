@@ -33,7 +33,7 @@ To show the interface of the application :
 
 To use the Proxy :
 
-* Go to the ** my-replicate-app doc**
+* Go to the **my-replicate-app doc**
 * Type `npm start`
  
 
